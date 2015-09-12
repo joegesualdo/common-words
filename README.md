@@ -15,3 +15,5 @@ CommonWords.getWords(function(err, words){
 })
 ```
 
+## Source
+> Words from [http://www.bckelk.ukfsn.org/words/uk1000n.html](http://www.bckelk.ukfsn.org/words/uk1000n.html)
