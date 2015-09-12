@@ -1,7 +1,7 @@
 var fs = require('fs'),
     readline = require('readline');
 
-var FrequentWords = (function(){
+var CommonWords = (function(){
   this.getWords = getWords;
   return {
     getWords: this.getWords
@@ -27,4 +27,4 @@ function getWords(callback){
   });
 }
 
-module.exports = FrequentWords;
+module.exports = CommonWords;

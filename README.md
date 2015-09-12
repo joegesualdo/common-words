@@ -1,16 +1,16 @@
-## Frequent Words
-> List of frequent english words
+## Common Words
+> List of common english words
 
 ## Install 
 ```
-$ npm install --save frequent-words
+$ npm install --save common-words 
 ```
 
 ## Usage
 ```javascript
-var FrequentWords = require("frequent-words");
+var CommonWords = require("common-words");
 
-FrequentWords.getWords(function(err, words){
+CommonWords.getWords(function(err, words){
   console.log(words);
 })
 ```
