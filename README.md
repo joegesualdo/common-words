@@ -3,12 +3,12 @@
 
 ## Install 
 ```
-$ npm install --save common-words 
+$ npm install --save common-english-words 
 ```
 
 ## Usage
 ```javascript
-var CommonWords = require("common-words");
+var CommonWords = require("common-english-words");
 
 CommonWords.getWords(function(err, words){
   console.log(words);
