@@ -14,7 +14,7 @@ function getWords(callback){
   var words = []
   var wordLines = []
   var rd = readline.createInterface({
-      input: fs.createReadStream('1000-common-words.txt'),
+      input: fs.createReadStream(path.resolve(__dirname, '1000-common-words.txt')),
       output: process.stdout,
       terminal: false
   });
