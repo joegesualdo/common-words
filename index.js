@@ -1,5 +1,6 @@
-var fs = require('fs'),
-    readline = require('readline');
+var fs = require('fs');
+var readline = require('readline');
+var path = require('path');
 
 var CommonWords = (function(){
   this.getWords = getWords;
